@@ -2,7 +2,8 @@
 Skincare Products Website
 This website is built using HTML5 semantic elements and CSS3 for a skincare products e-commerce platform.
 HTML Tags Used
-Semantic Structure
+
+## Semantic Structure
 
 <header>: Contains the website header and main title
 <nav>: Contains the navigation menu
@@ -11,7 +12,7 @@ Semantic Structure
 <aside>: Contains sidebar content (product finder form)
 <footer>: Contains contact information and bottom content
 
-Content Elements
+## Content Elements
 
 <figure>: Contains images with captions
 <figcaption>: Provides captions for images
@@ -23,14 +24,14 @@ Content Elements
 <datalist>: Provides autocomplete options for input
 <form>: Contains the product finder form
 
-Form Elements
+## Form Elements
 
 <input type="text">: Text input fields
 <input type="email">: Email input field
 <input type="password">: Password input field
 <button>: Submit button for forms
 
-Other Elements
+## Other Elements
 
 <a href="tel:">: Phone number link
 <a href="mailto:">: Email link
@@ -39,7 +40,7 @@ Other Elements
 <meta>: Meta information
 <title>: Page title
 
-CSS Features
+## CSS Features
 
 External CSS file (styles.css)
 Flexbox for navigation
@@ -50,7 +51,7 @@ Hover effects
 Form styling
 Table styling
 
-File Structure
+## File Structure
 your-project/
 │
 ├── index.html
