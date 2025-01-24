@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radiant Skin - Premium Skincare Products</title>
+    <link rel="icon" type="image/x-icon" href="/api/placeholder/32/32">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Radiant Skin</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-container">
+        <div class="content-area">
+            <section>
+                <h2>Featured Products</h2>
+                <table class="product-table">
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Hydrating Serum</td>
+                        <td>Serums</td>
+                        <td>$45.99</td>
+                    </tr>
+                    <tr>
+                        <td>Gentle Cleanser</td>
+                        <td>Cleansers</td>
+                        <td>$24.99</td>
+                    </tr>
+                </table>
+            </section>
+
+            <article>
+                <h2>Skincare Essentials</h2>
+                <figure>
+                    <img src="image/pic1.jpeg" alt="Skincare Product">
+                    <figcaption>Our Premium Skincare Collection</figcaption>
+                </figure>
+
+                <details>
+                    <summary>Product Details</summary>
+                    <p>Our skincare products are formulated with natural ingredients...</p>
+                </details>
+
+                <audio controls>
+                    <source src="./audio/audio1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <video controls width="100%">
+                    <source src="./video/video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+        </div>
+
+        <aside>
+            <h3>Product Finder</h3>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="skin-type">Skin Type:</label>
+                    <input list="skin-types" id="skin-type" name="skin-type" class="form-input">
+                    <datalist id="skin-types">
+                        <option value="Dry">
+                        <option value="Oily">
+                        <option value="Combination">
+                        <option value="Sensitive">
+                    </datalist>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required class="form-input">
+                </div>
+            
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required class="form-input">
+                </div>
+            
+                <button type="submit" class="find-products-btn">Find Products</button>
+            </form>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Contact us:</p>
+        <p><a href="tel:+1234567890">Call: (123) 456-7890</a></p>
+        <p><a href="mailto:info@radiantskin.com">Email: info@radiantskin.com</a></p>
+    </footer>
+</body>
+</html>
